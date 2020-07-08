@@ -8,7 +8,7 @@ class PlatformUtils {
     return context != null ? Theme.of(context).platform : defaultTargetPlatform;
   }
 
-  static select(
+  static T select<T>(
       {BuildContext context,
       dynamic android,
       dynamic ios,

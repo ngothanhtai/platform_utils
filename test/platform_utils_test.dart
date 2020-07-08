@@ -23,11 +23,11 @@ void main() {
   });
 
   test("returns default value if params are not passed", () {
-    var result = PlatformUtils.select(defaultWhenNull: "default");
+    var result = PlatformUtils.select<String>(defaultWhenNull: "default");
 
     expect(result, "default");
 
-    result = PlatformUtils.select(defaultWhenNull: () => "default");
+    result = PlatformUtils.select<String>(defaultWhenNull: () => "default");
 
     expect(result, "default");
   });

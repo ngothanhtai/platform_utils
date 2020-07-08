@@ -1,3 +1,7 @@
+## 0.1.2
+
+* Use generic type
+
 ## 0.1.1
 
 * Update example

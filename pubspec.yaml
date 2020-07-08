@@ -2,7 +2,7 @@ name: platform_utils
 description: Returns value or run a function based on Platform.
   If the context is passed, it will get the platform by Theme.of(context).platform.
   Otherwise, it will use defaultTargetPlatform.
-version: 0.1.1
+version: 0.1.2
 homepage: https://github.com/ngothanhtai/platform_utils
 
 environment:
